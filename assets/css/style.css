@@ -22,6 +22,26 @@ nav li > a {
 h1 {
     font-family: 'Play', 'Shadow Into Light', sans-serif;
     letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-size: 110%;
+}
+
+.navbar > li {
+    margin-bottom: 1em;
+}
+
+
+.navbar > li:target {
+    color: blueviolet;
+}
+
+.active {
+    border-bottom: 1px solid darkblue;
 }
 
 main {
